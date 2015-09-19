@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculadora</title>
+</head>
+<body bgcolor= "#171796" text= "yellow">
+<form name="Calculadora" >
+
+<input type="button" value="     1     " style="position: absolute; left: 25px; top: 100px;" onClick="document.Calculadora.ans.value+='1'">
+<input type="button" value="     2     " style="position: absolute; left: 100px; top: 100px;" onClick="document.Calculadora.ans.value+='2'">
+<input type="button" value="     3     " style="position: absolute; left: 175px; top: 100px;" onClick="document.Calculadora.ans.value+='3'">
+
+<input type="button" value="     4     " style="position: absolute; left: 25px; top: 135px;" onClick="document.Calculadora.ans.value+='4'">
+<input type="button" value="     5     " style="position: absolute; left: 100px; top: 135px;" onClick="document.Calculadora.ans.value+='5'">
+<input type="button" value="     6     " style="position: absolute; left: 175px; top: 135px;" onClick="document.Calculadora.ans.value+='6'">
+
+<input type="button" value="     7     " style="position: absolute; left: 25px; top: 170px;" onClick="document.Calculadora.ans.value+='7'">
+<input type="button" value="     8     " style="position: absolute; left: 100px; top: 170px;" onClick="document.Calculadora.ans.value+='8'">
+<input type="button" value="     9     " style="position: absolute; left: 175px; top: 170px;" onClick="document.Calculadora.ans.value+='9'">
+<input type="button" value="     0     " style="position: absolute; left: 100px; top: 205px;" onClick="document.Calculadora.ans.value+='0'">
+
+<input type="button" value="     +     " style="position: absolute; left: 250px; top: 100px;"onClick="document.Calculadora.ans.value+='+'">
+
+<input type="button" value="     -     " style="position: absolute; left: 250px; top: 135px;"onClick="document.Calculadora.ans.value+='-'">
+
+<input type="button" value="     x     " style="position: absolute; left: 250px; top: 170px;"onClick="document.Calculadora.ans.value+='*'">
+
+<input type="button" value="     ÷     " style="position: absolute; left: 250px; top: 205px;"onClick="document.Calculadora.ans.value+='/'">
+ 
+<input type="reset" value="     C     " style="position: absolute; left: 25px; top: 205px;">
+
+<input type="button" value="     =     " style="position: absolute; left: 175px; top: 205px;" onClick="document.Calculadora.ans.value=eval(document.Calculadora.ans.value)">
+
+<input type="textfield" name="ans" value=""style="position: absolute; left: 80px; top: 50px;">
+
+</form>
+ 
+</body>
+</html>
